@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Agadir Sport Center — Hôtel & Club | Agadir</title>
+  <style>
+    :root {
+      --green-50:#f3faf5;
+      --green-100:#e3f7e8;
+      --green-400:#4caf50;
+      --green-600:#2e7d32;
+      --muted:#5a6b5e;
+    }
+    * { box-sizing:border-box; }
+    body {
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;
+      margin:0;
+      background:var(--green-50);
+      color:#072233;
+    }
+    .container { max-width:1100px; margin:0 auto; padding:20px; }
+    header {
+      background:linear-gradient(180deg,var(--green-100),white);
+      padding:22px 0;
+      position:sticky; top:0; z-index:30;
+      border-bottom:1px solid rgba(46,125,50,0.06);
+    }
+    nav { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; }
+    .brand { display:flex; gap:12px; align-items:center; }
+    .brand img {
+      height:56px;
+      width:auto;
+      border-radius:10px;
+    }
+    .brand h1 {
+      font-size:18px; margin:0; color:var(--green-600);
+    }
+    .navlinks a {
+      margin-left:16px; text-decoration:none; color:var(--muted); font-weight:600;
+    }
+    .card {
+      background:white; border-radius:14px; box-shadow:0 8px 28px rgba(46,125,50,0.06);
+      overflow:hidden; padding:18px;
+    }
+    .lead { color:#1b4b2f; margin:6px 0 12px; }
+    .gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:8px; margin-top:12px; }
+    .gallery img { width:100%; height:200px; object-fit:cover; border-radius:8px; }
+    .activities { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:12px; margin-top:12px; }
+    .activity { background:linear-gradient(180deg,white, #f7fcf8); padding:12px; border-radius:10px; border:1px solid rgba(4,47,64,0.03); }
+    .activity h4 { margin:0 0 6px; font-size:15px; color:var(--green-600); }
+    .btn {
+      display:inline-block; padding:10px 14px; border-radius:10px;
+      background:var(--green-600); color:white; text-decoration:none; font-weight:700;
+    }
+    .btn-ghost {
+      background:transparent; border:1px solid var(--green-600); color:var(--green-600);
+    }
+    footer { padding:18px; text-align:center; color:var(--muted); margin-top:22px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1fu0gJ5lvowfRWPa5nBwHUCMBB9zv0pTy1vYFLaRL4s0QZaU9XZ97jvFi&s=10" alt="Logo Agadir Sport Center">
+          <div>
+            <h1>Agadir Sport Center</h1>
+            <div style="font-size:13px;color:var(--muted)">Sports • piscine • Restauration</div>
+          </div>
+        </div>
+        <div class="navlinks">
+          <a href="#activities">Activités</a>
+          <a href="#gallery">Galerie</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Bienvenue à Agadir Sport Center</h2>
+      <p class="lead">Un lieu de détente et de sport à Agadir — piscine, terrains multisports, restaurant & café. Écoles de tennis, basket, foot, natation. Idéal pour la famille, les sportifs et les événements.</p>
+
+      <h3 id="activities">Ce que nous proposons</h3>
+      <div class="activities">
+        <div class="activity"><h4>Piscine & Solarium</h4><p>Grands bassins extérieurs, solarium, espace baignade pour petits et grands.</p></div>
+        <div class="activity"><h4>Restaurant & Café Terrasse</h4><p>Petit-déjeuner, déjeuners & dîners en terrasse — boissons fraîches et spécialités locales.</p></div>
+        <div class="activity"><h4>École de Tennis</h4><p>Cours pour enfants et adultes, stages, club de tennis encadré.</p></div>
+        <div class="activity"><h4>Football & Beach-Volley</h4><p>Terrains dédiés, éclairage nocturne, sessions libres ou encadrées par des professionnels.</p></div>
+        <div class="activity"><h4>Basketball</h4><p>Terrain outdoor, entraînements et ligue amateur.</p></div>
+        <div class="activity"><h4>Événements & Privatisations</h4><p>Anniversaires, team-building, séminaires, groupes — sur réservation.</p></div>
+      </div>
+
+      <h3>Nos horaires</h3>
+      <ul>
+        <li>Lundi à Dimanche : 08:00 - 20:00</li>
+      </ul>
+
+      <h3 id="gallery">Galerie</h3>
+      <div class="gallery">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzAX8a8cz5VUbflo0mt5RtDNUaTs0-bYLrfPdGY79wsGHbR2ZumUdqOCzopxW1jqeP8ERi54JDg44POlc93CF7-ut3BeZ2eWvbawhNsnoIRVeLclaKTcvnLKZGU0wulwa037t3cNA=s2560-w2560-h1264-rw" alt="Entrée principale">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxYwj4EVENHeCiOzbOdA-XtAg8Mv0hGVl35ahfQfhXf9hq_LKRPHECGwg&s=10" alt="Terrain de tennis">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwSEl64m2ePSVGQqFbt5GOkfyRd7B3qpeO2aej1qyxYLgh9qXtpT1fqPWjhj-r_64eCcoAJAwAG5IG8_w3oYVDAMtPnYIc32Q1A8z1zy_7OFV718vmeEwoRtKsEguckXoEcWVkS=s2560-w2560-h1264-rw" alt="Terrasse de nuit">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzFo-f48_T-3fk00FFb7qc007jTW0Sxq8jCyuv5lEOzr2l4TCuKyvc0mxROdpuMg2OjOByBfbsZnETPQN_Ld_Ue7NZFCxN_KYgWf_bEwnblABSr5gkuGyjCu6oEswEr2tjA_MNy=w367-h306-n-k-no-nu" alt="Nature">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyNJQ5d91yb7xv_AFju6yrfrmP1VSPKJQ2SKnvv8QEtWgdkxjgCRXBfhf7u9RWZOyTD6usOjmwivFFca9BfNnHUqm2RC-aD7o_CnkBfjv8V1LGdBXK55knPzqmHXOeOfcToEmNKog=s2560-w2560-h1264-rw" alt="Piscine & solarium">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzO8n8OeH5Af1CjqRv6U0e2aonkjZbmnc5dj1tbxHN1lmIcFNXZJ9AU6xWRyQbqGpa59UXGPCB89-Q17mFrIQH5gRDrlse9RhhyqwWr0bSCDNDi964i2IzBmOEjN3JcFUVJPA0u=s2560-w2560-h1264-rw" alt="Restaurant">
+      </div>
+
+      <h3 id="contact">Contact & Réservations</h3>
+      <p><strong>Téléphone :</strong> <a href="tel:+2120662035034">+212 06 62 03 50 34</a></p>
+      <p><strong>Instagram :</strong> <a href="https://www.instagram.com/agadir_sport_center/" target="_blank">@agadir_sport_center</a></p>
+      <p><strong>WhatsApp :</strong> <a class="btn" href="https://wa.me/2120662035034" target="_blank">Réserver via WhatsApp</a></p>
+      <p><strong>Localisation :</strong> Inezgane-Aït-Melloul / Agadir, Maroc</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © Agadir Sport Center — Créé par Ibrahim Tigguint • Téléphone : <a href="tel:+2120662035034">+212 06 62 03 50 34</a>
+    </div>
+  </footer>
+</body>
+</html>
